@@ -1,0 +1,6 @@
+python3 -m venv rest_api
+cd rest_api
+source bin/activate
+pip install djangorestframework
+pip install Django
+
