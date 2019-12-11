@@ -31,14 +31,14 @@ class DDetailsView(generics.ListCreateAPIView):
         print("NOW HERE")
         # Send Message Device to IoTHub over HTTPS via Rest
         # IoT DeviceID
-        deviceID = "myThing886"
+        deviceID = "myThing100"
         # Iot Hub Name
         IoTHubName = "myGTVIotHub"
         # RestAPI Version
         iotHubAPIVer = "2018-06-30"
         iotHubRestURI = "https://" + IoTHubName + ".azure-devices.net/devices/" + deviceID + "?api-version=" + iotHubAPIVer
         # SAS Token Generated via Azure CLI or Device Explorer
-        SASToken = 'SharedAccessSignature sr=myGTVIotHub.azure-devices.net&sig=4gwDPneY4rVqn0ZsAhnk893mrdziBoZ6fHVDV6cmFXk%3D&skn=iothubowner&se=1576001315'
+        SASToken = 'SharedAccessSignature sr=myGTVIotHub.azure-devices.net&sig=KCqBw5whghC3OeGjkv5M7vKdBYWnp6tI8EgPOAjtJqw%3D&skn=iothubowner&se=1576230140'
 
         # Headers
         Headers = {}
